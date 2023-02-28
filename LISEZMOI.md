@@ -1,4 +1,4 @@
-# Delphi-Projects-Template
+# Promo Verif
 
 [This page in english.](README.md)
 
@@ -10,7 +10,7 @@ Ce dépôt de code contient un projet développé en langage Pascal Objet sous D
 
 ## Installation
 
-Pour télécharger ce projet il est recommandé de passer par "git" mais vous pouvez aussi télécharger un ZIP directement depuis [son dépôt GitHub](https://github.com/DeveloppeurPascal/XXXXXXXXXX).
+Pour télécharger ce projet il est recommandé de passer par "git" mais vous pouvez aussi télécharger un ZIP directement depuis [son dépôt GitHub](https://github.com/DeveloppeurPascal/Promo-Verif).
 
 **Attention :** si le projet utilise des dépendances sous forme de sous modules ils seront absents du fichier ZIP. Vous devrez les télécharger à la main.
 
@@ -18,18 +18,17 @@ Pour télécharger ce projet il est recommandé de passer par "git" mais vous po
 
 Ce dépôt de code dépend des dépôts suivants :
 
-* project 1
-* project 2
+* [digao-dalpiaz/DzHTMLText](https://github.com/digao-dalpiaz/DzHTMLText) doit être installé dans le sous-dossier ./lib-externes/DzHTMLText
 
 ## Comment demander une nouvelle fonctionnalité, signaler un bogue ou une faille de sécurité ?
 
-Si vous voulez une réponse du propriétaire de ce dépôt la meilleure façon de procéder pour demander une nouvelle fonctionnalité ou signaler une anomalie est d'aller sur [le dépôt de code sur GitHub](https://github.com/DeveloppeurPascal/XXXXXXXXXX) et [d'ouvrir un ticket](https://github.com/DeveloppeurPascal/XXXXXXXXXX/issues).
+Si vous voulez une réponse du propriétaire de ce dépôt la meilleure façon de procéder pour demander une nouvelle fonctionnalité ou signaler une anomalie est d'aller sur [le dépôt de code sur GitHub](https://github.com/DeveloppeurPascal/Promo-Verif) et [d'ouvrir un ticket](https://github.com/DeveloppeurPascal/Promo-Verif/issues).
 
 Si vous avez trouvé une faille de sécurité n'en parlez pas en public avant qu'un correctif n'ait été déployé ou soit disponible. [Contactez l'auteur du dépôt en privé](https://developpeur-pascal.fr/nous-contacter.php) pour expliquer votre trouvaille.
 
 Vous pouvez aussi cloner ce dépôt de code et participer à ses évolutions en soumettant vos modifications si vous le désirez. Lisez les explications dans le fichier [CONTRIBUTING.md](CONTRIBUTING.md).
 
-## Modèle de licence double (seulement pour mes projets, pas pour ce modèle de dépôt de code)
+## Modèle de licence double
 
 Ce projet est distribué sous licence [AGPL 3.0 ou ultérieure] (https://choosealicense.com/licenses/agpl-3.0/).
 

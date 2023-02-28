@@ -1,4 +1,4 @@
-# Delphi-Projects-Template
+# Promo Verif
 
 [Cette page en français.](LISEZMOI.md)
 
@@ -10,7 +10,7 @@ This code repository contains a project developed in Object Pascal language unde
 
 ## Install
 
-To download this project you better should use "git" command but you also can download a ZIP from [its GitHub repository](https://github.com/DeveloppeurPascal/XXXXXXXXXX).
+To download this project you better should use "git" command but you also can download a ZIP from [its GitHub repository](https://github.com/DeveloppeurPascal/Promo-Verif).
 
 **Warning :** if the project has submodules dependencies they wont be in the ZIP file. You'll have to download them manually.
 
@@ -18,18 +18,17 @@ To download this project you better should use "git" command but you also can do
 
 This project depends on :
 
-* project 1
-* project 2
+* [digao-dalpiaz/DzHTMLText](https://github.com/digao-dalpiaz/DzHTMLText) must be installed in ./lib-externes/DzHTMLText folder.
 
 ## How to ask a new feature, report a bug or a security issue ?
 
-If you want an answer from the project owner the best way to ask for a new feature or report a bug is to go to [the GitHub repository](https://github.com/DeveloppeurPascal/XXXXXXXXXX) and [open a new issue](https://github.com/DeveloppeurPascal/XXXXXXXXXX/issues).
+If you want an answer from the project owner the best way to ask for a new feature or report a bug is to go to [the GitHub repository](https://github.com/DeveloppeurPascal/Promo-Verif) and [open a new issue](https://github.com/DeveloppeurPascal/Promo-Verif/issues).
 
 If you found a security issue please don't report it publicly before a patch is available. Explain the case by [sending a private message to the author](https://developpeur-pascal.fr/nous-contacter.php).
 
 You also can fork the repository and contribute by submitting pull requests if you want to help. Please read the [CONTRIBUTING.md](CONTRIBUTING.md) file.
 
-## Dual licensing model (only for my projects, not for this code repository template)
+## Dual licensing model
 
 This project is distributed under [AGPL 3.0 or later](https://choosealicense.com/licenses/agpl-3.0/) license.
 
