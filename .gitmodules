@@ -1,0 +1,3 @@
+[submodule "lib-externes/DzHTMLText"]
+	path = lib-externes/DzHTMLText
+	url = https://github.com/digao-dalpiaz/DzHTMLText.git
