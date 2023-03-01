@@ -235,7 +235,8 @@ begin
   initialiseEcranCalcul;
   // initialisation onglet infos
   txtCopyright.Text :=
-    'Calculez le prix au kilo ou au litre des produits qui vous intéressent.<br />Comparez le prix réel entre les offres par lot, en promo, en cadeau ou à l''unité.<br>'
+    'Calculez le prix au kilo ou au litre des produits qui vous intéressent.<br>'
+    + 'Comparez le prix réel entre les offres par lot, en promo, en cadeau ou à l''unité.<br>'
     + '<br>' +
     'Infos et contacts sur <a>https://promoverif.olfsoftware.fr</a><br>' +
     '<br>' + 'Développement réalisé sous Delphi 11.3 Alexandria.<br>' +
