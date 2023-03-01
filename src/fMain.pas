@@ -41,6 +41,8 @@ type
     procedure FormDestroy(Sender: TObject);
     procedure FormKeyDown(Sender: TObject; var Key: Word; var KeyChar: Char;
       Shift: TShiftState);
+    procedure txtCopyrightLinkClick(Sender: TObject; Link: TDHBaseLink;
+      var Handled: Boolean);
   private
     { Déclarations privées }
     histo: TJSONObject;
@@ -64,7 +66,7 @@ implementation
 
 {$R *.fmx}
 
-uses System.Math, System.IOUtils, uDm;
+uses System.Math, System.IOUtils, uDm, u_urlOpen;
 
 procedure TfrmMain.afficheResultatCalcul(nb: integer; poids: double;
   unite: string; prix, remise: double);
@@ -227,15 +229,13 @@ begin
   // initialisation onglet calcul
   initialiseEcranCalcul;
   // initialisation onglet infos
-  txtCopyright.Text := '<p></p>' +
-    '<p align="justify">Calculez le prix au kilo ou au litre des produits qui vous intéressent.<br />Comparez le prix réel entre les offres par lot, en promo, en cadeau ou à l''unité.</p>'
-    + '<p></p>' +
-    '<p align="justify">Infos et contacts sur https://promoverif.top</p>' +
-    '<p></p>' +
-    '<p align="justify">Développement réalisé sous Delphi avec Firemonkey.</p>'
-    + '<p></p>' +
-    '<p align="justify">(c) Patrick Prémartin / Olf Software 2017</p>' +
-    '<p></p>';
+  txtCopyright.Text :=
+    'Calculez le prix au kilo ou au litre des produits qui vous intéressent.<br />Comparez le prix réel entre les offres par lot, en promo, en cadeau ou à l''unité.<br>'
+    + '<br>' +
+    'Infos et contacts sur <a>https://promoverif.olfsoftware.fr</a><br>' +
+    '<br>' + 'Développement réalisé sous Delphi 11.3 Alexandria.<br>' +
+    'Merci à Digao Dalpiaz pour le composant DzHTMLText permettant l''affichage de ce texte avec mise en forme.<br>'
+    + '<br>' + '(c) Patrick Prémartin / Olf Software 2017-2023<br>';
 end;
 
 procedure TfrmMain.FormDestroy(Sender: TObject);
@@ -361,6 +361,13 @@ begin
       end;
       afficheResultatCalcul(nb, poids, unite, prix, remise);
     end;
+end;
+
+procedure TfrmMain.txtCopyrightLinkClick(Sender: TObject; Link: TDHBaseLink;
+  var Handled: Boolean);
+begin
+  url_Open_In_Browser(Link.LinkRef.Text);
+  Handled := true;
 end;
 
 procedure TfrmMain.vsbCalculsResize(Sender: TObject);
