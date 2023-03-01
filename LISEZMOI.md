@@ -2,9 +2,11 @@
 
 [This page in english.](README.md)
 
-Un modèle de dépôt git pour mes projets Delphi (ou autres).
+Promo Verif est une calculatrice de prix de produits vendus à l'unité, par lots ou en promotion. L'objectif est de fournir un système simple pour les consommateurs désireux de comparer plusieurs offres du même article en magasin.
 
-Ce template est distribué sous licence MIT. La licence AGPL est pour les projets que je crée à partir de ce template de dépôt de code. Utilisez la licence que vous voulez si vous utilisez ce template.
+L'application est gratuite et téléchargeable directement depuis [Google Play](https://play.google.com/store/apps/details?id=fr.olfsoftware.promoverif.android) ou l'[App Store](https://apps.apple.com/us/app/promoverif/id1302834443).
+
+Une version pour Windows, Mac et Linux est [disponible au téléchargement direct](https://github.com/DeveloppeurPascal/Promo-Verif/releases) pour simplifier les calculs lorsqu'on fait ses courses en ligne.
 
 Ce dépôt de code contient un projet développé en langage Pascal Objet sous Delphi. Vous ne savez pas ce qu'est Dephi ni où le télécharger ? Vous en saurez plus [sur ce site web](https://delphi-resources.developpeur-pascal.fr/).
 
@@ -18,6 +20,8 @@ Pour télécharger ce projet il est recommandé de passer par "git" mais vous po
 
 Ce dépôt de code dépend des dépôts suivants :
 
+* [DeveloppeurPascal/AboutDialog-Delphi-Component](https://github.com/DeveloppeurPascal/AboutDialog-Delphi-Component) doit être installé dans le sous-dossier ./lib-externes/AboutDialog-Delphi-Component
+* [DeveloppeurPascal/librairies](https://github.com/DeveloppeurPascal/librairies) doit être installé dans le sous-dossier ./lib-externes/librairies
 * [digao-dalpiaz/DzHTMLText](https://github.com/digao-dalpiaz/DzHTMLText) doit être installé dans le sous-dossier ./lib-externes/DzHTMLText
 
 ## Comment demander une nouvelle fonctionnalité, signaler un bogue ou une faille de sécurité ?

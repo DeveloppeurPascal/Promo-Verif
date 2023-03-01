@@ -2,9 +2,11 @@
 
 [Cette page en français.](LISEZMOI.md)
 
-A git template for my Delphi (or others) projects.
+Promo Verif is a price calculator for products sold individually, in bundles or on promotion. The goal is to provide a simple system for consumers to compare multiple offers of the same item in store.
 
-This template is distributed under MIT license. The AGPL license is for projects I create from this code repository template. Use the license you want if you use the template.
+The application is free and can be downloaded directly from [Google Play](https://play.google.com/store/apps/details?id=fr.olfsoftware.promoverif.android) or the [App Store](https://apps.apple.com/us/app/promoverif/id1302834443).
+
+A version for Windows, Mac and Linux is [available for direct download](https://github.com/DeveloppeurPascal/Promo-Verif/releases) to simplify calculations when shopping online.
 
 This code repository contains a project developed in Object Pascal language under Delphi. You don't know what Delphi is and where to download it ? You'll learn more [on this web site](https://delphi-resources.developpeur-pascal.fr/).
 
@@ -18,6 +20,8 @@ To download this project you better should use "git" command but you also can do
 
 This project depends on :
 
+* [DeveloppeurPascal/AboutDialog-Delphi-Component](https://github.com/DeveloppeurPascal/AboutDialog-Delphi-Component) must be installed in ./lib-externes/AboutDialog-Delphi-Component folder.
+* [DeveloppeurPascal/librairies](https://github.com/DeveloppeurPascal/librairies) must be installed in ./lib-externes/librairies folder.
 * [digao-dalpiaz/DzHTMLText](https://github.com/digao-dalpiaz/DzHTMLText) must be installed in ./lib-externes/DzHTMLText folder.
 
 ## How to ask a new feature, report a bug or a security issue ?
