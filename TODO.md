@@ -15,6 +15,7 @@
 * faire un bannière "titre" pour la page des infos/crédits du programme
 
 * Google Play à mettre à jour (envoi AAB après récupération de la clé à activer chez eux)
+* Google Play : fiche et captures écran à compléter
 * App Store : captures d'écran à soumettre avec la nouvelle version
 * Mac App Store : captures d'écran à soumettre avec la nouvelle version
 * Amazon Appstore : fiche et captures écran à compléter

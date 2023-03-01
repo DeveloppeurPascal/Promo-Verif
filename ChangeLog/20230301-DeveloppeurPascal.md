@@ -17,3 +17,6 @@
 * modification de la bannière d'entête de la page des infos du jeu
 * retrait du style graphique d'origine (avec problèmes sur plateformes desktop)
 * compilation, tests, déploiements
+
+* mise à jour des infos de déploiement pour Mac Intel et ARM en mode magasin d'application
+* duplication du projet pour mise en place des infos dédiées à Microsoft Store
