@@ -17,6 +17,5 @@
 * Google Play à mettre à jour (envoi AAB après récupération de la clé à activer chez eux)
 * App Store : captures d'écran à soumettre avec la nouvelle version
 * Mac App Store : captures d'écran à soumettre avec la nouvelle version
-* Mac App Store : signer et envoyer le programme
 * Amazon Appstore : fiche et captures écran à compléter
 * Microsoft Store : fiche et captures écran à compléter
