@@ -8,7 +8,8 @@ uses
   FMX.Types, FMX.Controls, FMX.Forms, FMX.Graphics, FMX.Dialogs, FMX.TabControl,
   FMX.Objects, FMX.ExtCtrls, FMX.Layouts, FMX.ListBox,
   FMX.EditBox, FMX.NumberBox, FMX.Edit,
-  FMX.Controls.Presentation, FMX.StdCtrls, System.JSON, FMX.DzHTMLText;
+  FMX.Controls.Presentation, FMX.StdCtrls, System.JSON, FMX.DzHTMLText,
+  Olf.FMX.TextImageFrame;
 
 type
   TfrmMain = class(TForm)
@@ -33,7 +34,10 @@ type
     lblCashback: TLabel;
     edtCashback: TNumberBox;
     btnCalcul: TButton;
-    StyleBook1: TStyleBook;
+    tiPromo: TOlfFMXTextImageFrame;
+    tiVerif: TOlfFMXTextImageFrame;
+    Layout2: TLayout;
+    Layout3: TLayout;
     procedure FormCreate(Sender: TObject);
     procedure btnCalculClick(Sender: TObject);
     procedure edtNbEnter(Sender: TObject);
@@ -66,7 +70,8 @@ implementation
 
 {$R *.fmx}
 
-uses System.Math, System.IOUtils, uDm, u_urlOpen;
+uses System.Math, System.IOUtils, uDm, u_urlOpen,
+  udmPromoVerifTypoAdobeStock_212889779;
 
 procedure TfrmMain.afficheResultatCalcul(nb: integer; poids: double;
   unite: string; prix, remise: double);
@@ -235,7 +240,13 @@ begin
     'Infos et contacts sur <a>https://promoverif.olfsoftware.fr</a><br>' +
     '<br>' + 'Développement réalisé sous Delphi 11.3 Alexandria.<br>' +
     'Merci à Digao Dalpiaz pour le composant DzHTMLText permettant l''affichage de ce texte avec mise en forme.<br>'
-    + '<br>' + '(c) Patrick Prémartin / Olf Software 2017-2023<br>';
+    + 'Certains éléments graphiques sont sous licence Adobe Stock.<br>' + '<br>'
+    + '(c) Patrick Prémartin / Olf Software 2017-2023<br>';
+
+  tiPromo.Font := dmPromoVerifTypoAdobeStock_212889779.ImageList;
+  tiVerif.Font := dmPromoVerifTypoAdobeStock_212889779.ImageList;
+  tiPromo.Text := 'PROMO';
+  tiVerif.Text := 'VERIF';
 end;
 
 procedure TfrmMain.FormDestroy(Sender: TObject);
